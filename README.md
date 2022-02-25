@@ -31,5 +31,6 @@ https://igraph.org/python/api/latest/igraph._igraph.GraphBase.html#Erdos_Renyi
 
 یعنی در شبکه تصادفی نوع دوم، ضریب خوشه پذیری مستقل از درجه گره می‌باشد.
 همچنین متوسط فواصل بین درجات از رابطه زیر بدست می‌آید:
+ 
   ![average distance](./assets/average_distance_random_graph.PNG)
 
