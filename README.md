@@ -3,8 +3,8 @@
 # مدل شبکه تصادفی Erdos-Renyi
 
 شبکه تصادفی مدل Erdős–Rényi دو نوع می‌باشد:
-1.	G(n,M) که یک گراف بصورت تصادفی شامل n گره و M یال می‌باشد.
-2.	G(n,p) که یک گراف بصورت تصادفی شامل n گره بوده و این گراف، هر یالی را با احتمال p مستقل از یال‌های دیگر شامل می‌شود(البته این مدل با عنوان گراف تصادفی (Gilbert, 1959) ارائه شد که در بعضی مراجع به Erdős–Rényi-Gilbert نیز معروف است).
+1.	تعریف G(n,M) که یک گراف بصورت تصادفی شامل n گره و M یال می‌باشد.
+2.	تعریف G(n,p) که یک گراف بصورت تصادفی شامل n گره بوده و این گراف، هر یالی را با احتمال p مستقل از یال‌های دیگر شامل می‌شود(البته این مدل با عنوان گراف تصادفی (Gilbert, 1959) ارائه شد که در بعضی مراجع به Erdős–Rényi-Gilbert نیز معروف است).
 
 در این پروژه، از نوع دوم استفاده می‌شود.
 
@@ -33,4 +33,12 @@ https://igraph.org/python/api/latest/igraph._igraph.GraphBase.html#Erdos_Renyi
 همچنین متوسط فواصل بین درجات از رابطه زیر بدست می‌آید:
  
   ![average distance](./assets/average_distance_random_graph.PNG)
+
+
+## مراجع
+•	Barabási, A.-L., Pósfai, M., 2016. Network science. Cambridge University Press, Cambridge, United Kingdom.
+ 
+•	Gilbert, E.N., 1959. Random Graphs. Ann. Math. Stat. 30, 1141–1144. https://doi.org/10.1214/aoms/1177706098
+
+
 
