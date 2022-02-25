@@ -33,7 +33,7 @@ https://igraph.org/python/api/latest/igraph._igraph.GraphBase.html#Erdos_Renyi
 
 حال ضریب خوشه‌پذیری محلی برابر فرمول زیر است:
 
- ![clustering coefficient](./assets/clustering_coefficient_random_graph.png)
+ ![clustering coefficient](./assets/clustering_coefficient_random_graph.jpg)
 
 یعنی نسبت تعداد یال‌های مورد انتظار گره (<L>) به تعداد کل یال‌هایی که می‌تواند وجود داشته باشد (انتخاب ۲ از تعداد درجات گره i) که با جایگذاری <L> در فرمول بالا مقدار p بدست می‌آید. پس ضریب خوشه‌پذیری لوکال مستقل از درجه گره است. همچنین میانگین تمام ضرایب خوشه‌پذیری لوکال نیز برابر p می‌شود(np/n=p). 
 
