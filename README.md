@@ -35,6 +35,48 @@ https://igraph.org/python/api/latest/igraph._igraph.GraphBase.html#Erdos_Renyi
   ![average distance](./assets/average_distance_random_graph.PNG)
 
 
+
+
+
+## رسم نمودار توزیع درجات
+برای رسم نمودار توزیع درجات، از کتابخانه matplotlib استفاده شده است. نمودار توزیع درجات با مقیاس معمولی و مقیاس لگاریتم-لگاریتم به شرح زیر می‌‎باشد:
+
+
+نمودار 1- توزیع فراوانی درجات (مانند توزیع نرمال است)
+
+  ![degree distribution normal plot](./assets/dd.svg)
+
+
+نمودار 2- توزیع فراوانی درجات در مقیاس لگاریتم-لگاریتم (مانند توزیع نرمال است)
+
+  ![degree distribution log-log plot](./assets/log-log.svg)
+
+
+
+در نمودار2 در مقایسه با شبکه‌های غیرتصادفی، مشاهده می‌شود که تعداد رئوس با درجه بالا در شبکه‌های تصادفی کمتر از شبکه‌های واقعی است، یعنی شبکه‌های تصادفی از قانون توان یا Power Law پیروی نمی‌کنند (نام دیگر آن قانون 80/20 ویلفردو پرتو بوده که با تعبیر شبکه‌ای بدین صورت است: 80 درصد یال‌های موجود در شبکه توسط 20 درصد از گره‌ها تامین می‌شود). 
+
+همچنین طبق تعریفی که در کتاب علم شبکه(Barabási and Pósfai, 2016) آمده است:
+شبکه‌ای که از قانون توان یا power-law پیروی کند Scale-Free نامیده  می‌شود.
+
+نمودار 3- مقایسه بین شبکه های تصادفی و  scale-free (تصویر از کتاب علم شبکه Barabási and Pósfai, 2016) 
+
+  ![random network vs scale-free degree distribution plot](./assets/random_scalefree_plot.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## مراجع
 •	Barabási, A.-L., Pósfai, M., 2016. Network science. Cambridge University Press, Cambridge, United Kingdom.
  
