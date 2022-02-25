@@ -1,5 +1,11 @@
 <div dir="rtl">
 
+# نحوه استفاده از این پروژه
+
+1. نصب نیازمندی ها: `pip install -r requirements.txt`
+
+2. اجرای تست: `python -m unittest`
+
 # مدل شبکه تصادفی Erdos-Renyi
 
 شبکه تصادفی مدل Erdős–Rényi دو نوع می‌باشد:
