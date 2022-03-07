@@ -1,6 +1,6 @@
 import unittest
 from src.main import create_edos_renyi_random_graph
-class TestStringMethods(unittest.TestCase):
+class TestMain(unittest.TestCase):
 
     def test_erdos_renyi_random_network(self):
         p=0.005

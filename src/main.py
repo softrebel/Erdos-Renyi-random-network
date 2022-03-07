@@ -12,7 +12,7 @@ def graph_statistics(self):
     print("Vertex ID with the maximum degree:", degrees.index(max(degrees)))
     print("Diameter of the graph:", self.diameter())
     print("Global Clustering Coefficient of the graph:", self.transitivity_undirected())
-    print("Local Clustering Coefficient of the graph:", self.transitivity_local_undirected())
+    # print("Local Clustering Coefficient of the graph:", self.transitivity_local_undirected())
     print("Average Local Clustering Coefficient of the graph:", self.transitivity_avglocal_undirected())
     print("Average Path Length of the graph:", self.average_path_length())
 
@@ -42,3 +42,12 @@ def create_edos_renyi_random_graph(p,N):
     g.write_graphml("test.graphml")
     return True
 
+if __name__ == '__main__':
+    p = 0.005
+    N = 1000
+    import sys
+
+    if (len(sys.argv) > 1):
+        N = int(sys.argv[1])
+        p = float(sys.argv[2])
+    create_edos_renyi_random_graph(p,N)
