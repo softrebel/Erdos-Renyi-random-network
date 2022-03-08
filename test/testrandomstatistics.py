@@ -1,18 +1,22 @@
 import unittest
-from src.random_statistics import *
+from src.helpers import *
+from unittest.mock import patch
+
 class TestRandomStatistics(unittest.TestCase):
 
     def test_calculate_s_by_lambert_w_function(self):
-        mean_k=1.5
-        result=0.5828116536140442
-        res=calculate_s_by_lambert(mean_k)
-        self.assertEqual(res, result)
+        with patch('matplotlib.pyplot.savefig') as p:
+            mean_k=1.5
+            result=0.5828116536140442
+            res=calculate_s_by_lambert(mean_k)
+            self.assertEqual(res, result)
 
     def test_calculate_s_by_curve_intersection(self):
-        mean_k=1.5
-        result=0.5807922135825879
-        res=calculate_s_by_curves_intersections(mean_k)
-        self.assertEqual(res[1], result)
+        with patch('matplotlib.pyplot.savefig') as p:
+            mean_k=1.5
+            result=0.5807922135825879
+            res=calculate_s_by_curves_intersections(mean_k)
+            self.assertEqual(res[1], result)
 
     def test_calculate_k_max_probabilty(self):
         mean_k=1.5
