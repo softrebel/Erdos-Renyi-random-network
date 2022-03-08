@@ -33,7 +33,6 @@ def calculate_s_by_curves_intersections(mean_k):
     _x, _y = intersection(x, y, x, x)
     plt.plot(_x, _y, "*k")
 
-    # plt.show()
     plt.savefig('giant_component_size_curve_intersection.svg')
     plt.close()
     return list(_x)
